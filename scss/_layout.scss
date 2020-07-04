@@ -1,0 +1,7 @@
+$breakpoint: 768px;
+
+@mixin media-xl {
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
